@@ -26,10 +26,10 @@ function P5Sketch() {
       canvasParentRef
     );
     p5.background(0, 0, 0);
-    p5.rect(0, 0, window.innerWidth, window.innerHeight / 5);
+    p5.rect(0, 0, window.innerWidth, window.innerHeight / 10);
     p5.rect(
       0,
-      window.innerHeight - window.innerHeight / 10 / 2,
+      window.innerHeight - window.innerHeight / 10,
       window.innerWidth,
       window.innerHeight / 10
     );
