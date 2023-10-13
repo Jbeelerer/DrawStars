@@ -45,11 +45,11 @@ function P5Sketch() {
     mouseDown = !mouseDown;
     if (mouseDown) {
       //points.add([previous.x,previous.y])
-      if (p5.mouseY > window.innerHeight - window.innerHeight / 20) {
+      if (p5.mouseY > window.innerHeight - window.innerHeight / 10) {
         console.log(p5.mouseY);
         console.log();
         sendData(window.innerHeight / 2);
-      } else if (p5.mouseY < window.innerHeight / 5) {
+      } else if (p5.mouseY < window.innerHeight / 10) {
         reset(p5);
       } else {
         if (previous.x !== 0) {
