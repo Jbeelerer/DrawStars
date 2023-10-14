@@ -46,7 +46,7 @@ body{
   position: absolute;
   width: 60px;
   border: solid 1px;
-  right: 20px;
+  right: 5%;
   top: 5%;
   padding: 4px 10px;
   border-radius: 5px;
@@ -68,13 +68,13 @@ body{
 }
 .mainBody{
   position: absolute;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   height: 65%;
   border: solid 1px;
-  left: 7%;
+  left: 5%;
   top: 12%;
-  padding: 4px 10px;
+  /*padding: 4px 10px;*/
   border-radius: 5px;
 }
 .lowerWindow{
