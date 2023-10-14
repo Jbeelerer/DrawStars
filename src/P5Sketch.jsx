@@ -66,9 +66,7 @@ function P5Sketch() {
       mouseDown = false;
     }
   };
-
-  return (
-    <>
+  /*
       <button
         className="sendButton"
         onSubmit={() => {
@@ -76,7 +74,9 @@ function P5Sketch() {
         }}
       >
         Send
-      </button>
+      </button> */
+  return (
+    <>
       <Sketch setup={setup} draw={draw} mousePressed={mp} />
     </>
   );
