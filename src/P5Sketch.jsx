@@ -25,14 +25,14 @@ function P5Sketch() {
     p5.createCanvas(window.innerWidth, window.innerHeight).parent(
       canvasParentRef
     );
-    p5.background(0, 0, 0);
-    p5.rect(0, 0, window.innerWidth, window.innerHeight / 10);
+    p5.background(41, 4, 47);
+    /*p5.rect(0, 0, window.innerWidth, window.innerHeight / 10);
     p5.rect(
       0,
       window.innerHeight - window.innerHeight / 10,
       window.innerWidth,
       window.innerHeight / 10
-    );
+    );*/
   };
 
   const draw = (p5) => {
